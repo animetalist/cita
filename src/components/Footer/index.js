@@ -15,7 +15,7 @@ const Footer = () => {
   const t = useTranslations('Footer')
   const currentYear = new Date().getFullYear()
   return (
-    <footer className={s.footer}>
+    <footer data-aos="fade" className={s.footer}>
       <div className={clsx('container', s.footer_inner)}>
         <div className={s.footer_top}>
           <p className={s.footer_slogan}>

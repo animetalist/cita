@@ -11,9 +11,9 @@ const Order = () => {
     <section id="order">
       <div className={clsx('container', s.order)}>
         <div className={s.order_content}>
-          <h2>{t('title')}</h2>
+          <h2 data-aos="fade-right">{t('title')}</h2>
 
-          <p className="lead">
+          <p data-aos="fade-left" className="lead">
             {t.rich('descr', {
               br: () => <br />,
             })}

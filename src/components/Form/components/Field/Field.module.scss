@@ -23,7 +23,9 @@
     }
   }
 
-  &:has(#{$this}_list.show) {
+  &:has(#{$this}_wrapper.show) {
+    z-index: 2;
+
     &::before {
       transform: scaleY(-1);
     }
@@ -57,7 +59,6 @@
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 2;
     width: 100%;
     max-height: var(--max-height);
     padding: var(--padding);

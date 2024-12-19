@@ -32,7 +32,11 @@ const Header = () => {
   }
 
   return (
-    <header data-state={isNavOpen ? 'open' : null} className="container">
+    <header
+      data-state={isNavOpen ? 'open' : null}
+      data-aos="fade-down"
+      className="container"
+    >
       <div className={s.header}>
         <Link href="/" className={s.header_logo}>
           <Image src={logo} alt="Logo" priority />

@@ -11,6 +11,7 @@
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-dialog": "^1.1.4",
+    "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "gsap": "^3.12.5",
     "next": "15.0.4",

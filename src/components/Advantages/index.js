@@ -36,11 +36,18 @@ const Advantages = () => {
   return (
     <section id="advantages" className="container">
       <div className={s.advantages}>
-        <h2 className={s.advantages_title}>{t('title')}</h2>
+        <h2 data-aos="fade-right" className={s.advantages_title}>
+          {t('title')}
+        </h2>
 
         <ul className={s.advantages_list}>
           {LIST.map(({ Icon, descr }, i) => (
-            <li key={i} className={s.advantages_item}>
+            <li
+              key={i}
+              data-aos="fade-up"
+              data-aos-delay={i * 200}
+              className={s.advantages_item}
+            >
               <Icon className={s.advantages_icon} />
 
               {descr}

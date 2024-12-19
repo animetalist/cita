@@ -11,11 +11,18 @@ const Services = () => {
     <section id="services">
       <div className={'container'}>
         <div className={s.services}>
-          <h2 className={s.services_heading}>{t('title')}</h2>
+          <h2 data-aos="fade-left" className={s.services_heading}>
+            {t('title')}
+          </h2>
 
           <div className={s.services_list}>
             {list.map(({ title, descr }, i) => (
-              <div key={i} className={s.services_item}>
+              <div
+                key={i}
+                data-aos="fade-up"
+                data-aos-delay={i * 200}
+                className={s.services_item}
+              >
                 <div className={s.services_title}>{title}</div>
                 <div className={s.services_descr}>
                   <ul>

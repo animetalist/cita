@@ -22,14 +22,13 @@
   &_pic {
     position: absolute;
     inset: 0;
-    top: 50%;
+    top: calc(50% - 279px);
     left: 563px;
     z-index: -1;
     width: 893px;
     height: 558px;
     pointer-events: none;
     content: '';
-    transform: translateY(-50%);
 
     @media (width <= 1199.98px) {
       display: none;
@@ -68,7 +67,7 @@
     align-items: center;
     margin-top: 34px;
 
-    .btn {
+    > * {
       @media (width <= 739.98px) {
         flex-grow: 1;
       }

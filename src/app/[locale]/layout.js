@@ -10,6 +10,7 @@ import { Montserrat, Montserrat_Alternates } from 'next/font/google'
 import Header from '@/components/Header'
 import Coockies from '@/components/Coockies'
 import Footer from '@/components/Footer'
+import { AOSInit } from '@/components/AOS'
 import '../globals.scss'
 
 const montserrat = Montserrat({
@@ -71,6 +72,7 @@ export default async function RootLayout({ children, params }) {
         className={`${montserrat.variable} ${montserrat_alternates.variable}`}
       >
         <NextIntlClientProvider messages={messages}>
+          <AOSInit />
           <Header />
           <main>{children}</main>
           <Footer />

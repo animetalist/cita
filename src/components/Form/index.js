@@ -8,11 +8,10 @@ import { useForm } from 'react-hook-form'
 import Button from '../Button'
 import Field from './components/Field'
 import LINKS from '@/constants'
-import s from './Form.module.scss'
-
 import cities from '@/data/cities.json'
 import offices from '@/data/offices.json'
 import officeServices from '@/data/officeServices.json'
+import s from './Form.module.scss'
 
 const formatTelegramMessage = (data) => {
   let message = 'Нова заявка:\n'
@@ -200,6 +199,7 @@ const Form = ({ variant, handleClose }) => {
   return (
     <form
       autoComplete="off"
+      data-aos="fade-left"
       noValidate
       onSubmit={handleSubmit(onSubmit)}
       className={clsx(s.form, { [s[variant]]: variant })}

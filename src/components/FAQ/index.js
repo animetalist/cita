@@ -11,13 +11,15 @@ const FAQ = () => {
 
   return (
     <section id="faq" className={clsx('container', s.faq)}>
-      <h2>{t('title')}</h2>
+      <h2 data-aos="fade-right">{t('title')}</h2>
 
       <Accordion.Root type="single" collapsible className={s.faq_list}>
-        {list.map((item, index) => (
+        {list.map((item, i) => (
           <Accordion.Item
-            key={index}
-            value={'a' + index}
+            key={i}
+            value={'a' + i}
+            data-aos="fade-up"
+            data-aos-delay={i * 200}
             className={s.faq_item}
           >
             <Accordion.Trigger className={s.faq_title}>

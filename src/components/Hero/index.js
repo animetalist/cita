@@ -14,7 +14,7 @@ const Hero = () => {
   const descr = t.raw('descr')
 
   return (
-    <section className={s.hero}>
+    <section className={s.hero} data-aos="fade-up">
       <div className={clsx('container', s.hero_inner)}>
         <div className={s.hero_content}>
           <h1 className={s.hero_title}>
@@ -44,6 +44,7 @@ const Hero = () => {
             alt="Calendar"
             loading="eager"
             priority
+            data-aos="zoom-in"
             className={s.hero_pic}
           />
         </div>

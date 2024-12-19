@@ -24,7 +24,7 @@ const About = () => {
   return (
     <section id="about">
       <div className={clsx('container', s.about)}>
-        <div className={s.about_heading}>
+        <div data-aos="fade-down" className={s.about_heading}>
           <h2>
             {t.rich('title', {
               br: () => <br />,
@@ -41,7 +41,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className={s.about_content}>
+        <div data-aos="fade-up" className={s.about_content}>
           <p className="lead">
             {t.rich('lead', {
               br: () => <br />,
