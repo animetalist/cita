@@ -1,0 +1,153 @@
+{
+  "Global": {
+    "order": "Consultation",
+    "locale": "{locale, select, uk {UA} en {EN} es {ES} other {Unknown}}"
+  },
+  "Form": {
+    "name": "Full Name (as in the passport)",
+    "nameShort": "Name",
+    "year": "Year of birth",
+    "passport": "Passport number",
+    "phone": "Phone number",
+    "telegram": "Telegram username",
+    "region": "Region",
+    "office": "Office",
+    "service": "Service type",
+    "submit": "Send request",
+    "submitShort": "Send",
+    "success": "Request sent!",
+    "successShort": "Sent!",
+    "agree": "I accept the <policy>Privacy Policy</policy><extra> and </extra><offer>Public Offer Agreement</offer>"
+  },
+  "Metadata": {
+    "title": "Cita Master",
+    "descr": "Your Guaranteed Appointment with Spain’s Immigration Services"
+  },
+  "Menu": {
+    "about": "About us",
+    "advantages": "Our advantages",
+    "services": "Services",
+    "faq": "FAQ"
+  },
+  "Hero": {
+    "title": "Your Guaranteed Appointment with Spain’s Immigration Services",
+    "descr": [
+      "We specialize in assisting individuals and families residing in Spain by providing a fast, reliable service to secure appointments with immigration offices. When every moment counts, our service saves you from hours of waiting, unnecessary stress, and uncertainty.",
+      "Our team of professionals handles the entire process on your behalf. With a deep understanding of the procedures in Spanish institutions, we take care of all the bureaucratic tasks, leaving you to focus on preparing for your appointment and achieving your goals."
+    ],
+    "cta": "Send a request"
+  },
+  "About": {
+    "title": "Our Company – <br></br>Your Trusted Partner in Immigration Solutions",
+    "stats1": "clients in the last month",
+    "stats2": "clients in total",
+    "lead": "Cita Master is a professional team dedicated to helping individuals and families navigate Spain's immigration system with ease and confidence. We understand how challenging it can be to secure an appointment, especially when slots disappear in seconds.<br></br>That’s why we’ve developed a service that removes the burden of constant monitoring and ensures results you can rely on.",
+    "info": {
+      "main": [
+        "We aim to support people in challenging circumstances by providing seamless access to essential services. Our service is designed with a deep understanding of the needs of those facing immigration challenges, simplifying the entire process.",
+        "Our team monitors appointment availability in real-time to secure the date you need as quickly as possible. From consultation to confirmation, we stay connected with you, addressing all your questions along the way.",
+        "Transparent pricing with no hidden fees or upfront payments. Personalized service that considers your preferences for region, type of service, and urgency."
+      ],
+      "extra": [
+        "We operate legally, in full compliance with all regulations, with clear and transparent terms.",
+        "Every client matters to us, and we go above and beyond to exceed your expectations.",
+        "Our team has extensive experience with immigration matters and knows how to make the booking process fast and efficient.",
+
+        "Officially registered company adhering to all legal standards.",
+        "A clear service agreement prepared by top legal experts.",
+        "Secure payment methods through trusted banking systems.",
+        "Over 2,000 satisfied clients who trust us with their immigration needs."
+      ],
+      "more": "Show more",
+      "less": "Show less"
+    }
+  },
+  "Advantages": {
+    "title": "Our Advantages",
+    "list": [
+      "You no longer need to constantly refresh the immigration portal or spend time searching for available slots. We’ll handle it for you!",
+      "We aim to secure your appointment as quickly as possible. In most cases, it takes only 2–5 business days, depending on the service type.",
+      "No hidden fees or prepayments. Payment is made only after the service is successfully completed.",
+      "We operate officially, with clear contractual terms, ensuring the confidentiality of your data.",
+      "Our specialists are always available to answer your questions and provide consultation."
+    ]
+  },
+  "Services": {
+    "title": "Service provision process",
+    "list": [
+      {
+        "title": "You fill out the form on our website with the following details",
+        "descr": [
+          "Full name (as in your passport)",
+          "Year of birth",
+          "Passport number and series",
+          "Region of residence",
+          "Desired office location",
+          "Type of service",
+          "Mobile phone number (Ukrainian or Spanish)",
+          "Telegram username"
+        ]
+      },
+      {
+        "title": "Our team will contact you to confirm the details.",
+        "descr": [
+          "We strictly adhere to GDPR (General Data Protection Regulation).",
+          "Upon completion of the service, you may request the deletion of your personal data.",
+          "Your information is used solely for booking purposes and is never shared with third parties.",
+          "We send you an official contract for review and agreement."
+        ]
+      },
+      {
+        "title": "Booking",
+        "descr": [
+          "Express Service: Your appointment is arranged within 5 business days.",
+          "Standard Service: Your appointment is arranged within 14 business days."
+        ]
+      },
+      {
+        "title": "Confirmation and Payment",
+        "descr": [
+          "We send you a confirmation of your appointment.",
+          "You verify the details of the appointment.",
+          "Upon your confirmation, we issue an invoice for payment.",
+          "Payment Methods: Payment is made officially to the company's bank account."
+        ]
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "FAQ",
+    "list": [
+      {
+        "q": "What services do you provide?",
+        "a": "We help individuals and families residing in Spain secure appointments for visa services."
+      },
+      {
+        "q": "Why should I book through you?",
+        "a": "We have a comprehensive understanding of the appointment scheduling process in Spanish institutions. By handling all the bureaucratic tasks, we ensure you receive the appointment date you desire and can focus on preparing for your appointment."
+      },
+      {
+        "q": "How much does your service cost?",
+        "a": "The cost of our service depends on the type of service and the selected appointment date. You can find out the price after submitting your request."
+      }
+    ]
+  },
+  "Order": {
+    "title": "Fill out the form",
+    "descr": "Contact us now!<br></br>Our experts will respond within 15 minutes"
+  },
+  "Footer": {
+    "slogan": "Your <accent>guaranteed</accent> entry <br></br>into the Spanish immigration service",
+    "copy": "All rights reserved",
+    "policy": "Privacy Policy",
+    "offer": "Public Offer Agreement"
+  },
+  "Coockies": {
+    "title": "We use cookies",
+    "descr": "To improve your experience on our website, we use cookies. By continuing to browse, you agree to their use."
+  },
+  "Policy": {
+    "title": "Політика конфіденційності",
+    "content": "<p>Цей документ описує політику конфіденційності для сайту citareg.com (далі - Сайт). У цьому документі пояснюється, які види інформації можуть бути зібрані і зберігатися на Сайті, і як може використовуватися і надаватися ця інформація.</p><p><b>Персональні дані</b> - це відомості чи сукупність відомостей про фізичну особу, яка ідентифікована, або може бути ідентифікована.</p><p>Відвідувачу може бути запропоновано ввести персональні дані для цілей реєстрації на Сайті. Після заповнення форми на отримання новин компанії, а також форми зворотнього зв'язку, розміщені на Сайті, вважається, що відвідувач дав згоду на обробку компанією своїх персональних і контактних даних.</p><p>Сайт може зберігати інформацію про з'єднання, трафік, дату і час тривалості роботи користувача на Сайті. Персональні дані відвідувачів використовуються для забезпечення обміну інформацією, відносин у сфері реклами та комунікації відповідно до Законів України \"Про захист персональних даних\", \"Про інформацію\", \"Про рекламу\", \"Про телекомунікації \", \"Про підприємництво \", \"Про захист інформації в інформаційно-телекомунікаційніх системах\", НД ТЗІ 2.5-010-03 \"Вимоги до захисту інформації WEB- сторінки від несанкціонованого доступу\". Персональні дані відвідувачів можуть зберігатися протягом 3 років.</p><p>На Сайті фіксується доменне ім'я або IP-адреса комп'ютера відвідувача, дата доступу файлу (ім'я файлу і URL), код відповіді HTTP і веб-сайт, з якого відвідувач потрапив на сайт, кількість байт, переданих в ході сесії.</p><p>При роботі сайту використовуються файли cookie, які забезпечують підтримку функцій безпеки і їх запуск. Файли cookie також дозволяють відстежувати порушення політики конфіденційності та умови використання сайту відвідувачами / їх пристроями. Збір та використання персональних даних.</p><p><b>Умови надання інформації (Disclaimer)</b></p><p>Сайт може містити посилання на інші сайти. Такі посилання наведені, виключно, для інформаційних цілей і допомагають нам найбільш повно розкрити інформацію, або ілюструють розміщений матеріал. Той факт, що ми даємо посилання на зовнішній ресурс, не означає, що ми повністю схвалюємо викладені там позиції або ідеї, а також не гарантуємо достовірності розміщеної там інформації. Ми не несемо відповідальності за політику конфіденційності або зміст цих сайтів. Якщо у вас є питання або сумніви з приводу цієї політики, Ви можете зв'язатися з нами за адресою електронної пошти info@citareg.com.</p><p><b>Автоматичний збір і використання інформації.</b></p><p>Автоматично збирається і зберігається наступна інформація:</p><ul><li>доменне ім'я,</li><li>IP-адреса, з допомогою який ви заходите на сайт;</li><li>вид браузера і операційної системи;</li><li>дата і час відвідування сайту;</li><li>переглянуті сторінки - якщо Ви перейшли на сайт по посиланню з іншого сайту - адреса цього сайту.</li></ul><p>Відомості про трафік, який проходить через мережу, по електронній пошті, і активність користувача в мережі Інтернет на Сайті захищені відповідно до законодавства. Це означає, що співробітники Компанії не можуть втручатися в таємницю телекомунікацій. Ми маємо право надати будь-яку особисту інформацію відвідувачів сайту на вимогу правоохоронних органів, за рішенням суду або в рамках інших законних процедур, або на іншу правомірну вимогу відповідно з чинним законодавством України.</p><p>Ми не несемо відповідальності за упущену вигоду, неотриманий прибуток, втрату даних або будь-які інші збитки відвідувачів сайту, якщо такі виникли при користуванні Сайтом. Відвідувач сайту використовує Сайт на його власний ризик. В рамках, які максимально дозволяє закон, ні Компанія, ні будь-яка інша сторона, залучена в створення виробництва або обслуговування сайту, не несе відповідальності за пряме, непряме або випадкове пошкодження, які колинебудь наносилися і які були викликані тим, що відвідувач мав доступ до сайту, користувався ним або сподівався на нього, навіть якщо відвідувача було попереджено про можливість таких пошкоджень і втрат. Відвідувачі сайту не мають поширювати, змінювати, передавати, користуватися або використовувати повторно будь-яку інформацію з Сайту для будь-якої публічної або комерційної мети без письмового дозволу Компанії. Відвідувачі повинні дотримуватися всі авторських прав та інших приміток про власність на завантажені та / або копіюються матеріали.</p><p>Скопійована інформація повинна містити активне гіперпосилання на сайт. Копіювання інформації з сайту може бути здійснено в некомерційних цілях для розміщення на сторінках відвідувача, в блогах, соціальних мережах.<br/>При роботі з сайтом відвідувачеві не надаються права на інтелектуальну власність ні на один сайт, ні на його утримання або на використання будь-яких елементів брендингу або логотипів сайту.</p><p>Якщо Ви відвідуєте даний сайт, то Ви автоматично погоджуєтеся з цією політикою конфіденційності та її умовами. Якщо Ви не згодні з даною політикою конфіденційності та її умовами, то Ви можете залишити цей Сайт.</p><p><b>Зміна Політики конфіденційності</b></p><p>Відвідувач, користуючись Сайтом, прийняв умови даної політики конфіденційності, враховує і згоден з тим, що дана Політика конфіденційності може час від часу змінюватися. Зміни, що вносяться до Політики конфіденцфйності, публікуються на цій сторінці сайту. В окремих випадках ми залишаємо за собою право публікувати окремі примітки про конфіденційність для певних програм.</p>"
+  }
+}
