@@ -1,6 +1,6 @@
 const LINKS = {
   policy: '/policy',
-  // offer: '/offer',
+  offer: '/offer',
 }
 
 export default LINKS
