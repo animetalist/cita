@@ -199,7 +199,7 @@ const Form = ({ variant, handleClose }) => {
   return (
     <form
       autoComplete="off"
-      data-aos="fade-left"
+      data-aos={isPopup ? null : 'fade-left'}
       noValidate
       onSubmit={handleSubmit(onSubmit)}
       className={clsx(s.form, { [s[variant]]: variant })}

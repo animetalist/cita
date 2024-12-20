@@ -35,9 +35,9 @@ const Header = () => {
     <header
       data-state={isNavOpen ? 'open' : null}
       data-aos="fade-down"
-      className="container"
+      className={clsx('container', s.header)}
     >
-      <div className={s.header}>
+      <div className={s.header_inner}>
         <Link href="/" className={s.header_logo}>
           <Image src={logo} alt="Logo" priority />
         </Link>

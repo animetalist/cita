@@ -82,9 +82,28 @@ body {
     background-color: #f5f5f5;
   }
 
+  &::before {
+    @media (width <= 1199.98px) {
+      position: fixed;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      visibility: hidden;
+      content: '';
+      background-color: rgba(0, 0, 0, 50%);
+      opacity: 0;
+      transition: all 150ms ease-in-out;
+    }
+  }
+
   &:has(header[data-state='open']) {
     @media (width <= 1199.98px) {
       overflow: hidden;
+
+      &::before {
+        visibility: visible;
+        opacity: 1;
+      }
     }
   }
 }
@@ -251,6 +270,10 @@ h3,
   }
 }
 
+main {
+  overflow: hidden;
+}
+
 section {
   padding-block: 100px;
 
@@ -280,7 +303,7 @@ section {
   p {
     margin-top: 1em;
 
-    &:not(:last-child, :has(+ ul)) {
+    &:not(:last-child) {
       margin-bottom: 1em;
     }
   }
