@@ -9,12 +9,11 @@ import Button from '../Button'
 import Field from './components/Field'
 import LINKS from '@/constants'
 import cities from '@/data/cities.json'
-import offices from '@/data/offices.json'
 import officeServices from '@/data/officeServices.json'
 import s from './Form.module.scss'
 
 const formatTelegramMessage = (data) => {
-  let message = 'Нова заявка:\n'
+  let message = 'Нова заявка Cita:\n'
 
   for (const [key, value] of Object.entries(data)) {
     message += `${key}: ${value}\n`
@@ -47,10 +46,8 @@ const sendTelegramMessage = async (data) => {
 
 const getDependentOptions = (type, id) => {
   switch (type) {
-    case 'offices':
-      return offices.filter((office) => office.cityId === id)
     case 'services':
-      return officeServices.filter((service) => service.officeId === id)
+      return officeServices.filter((service) => service.cityId === id)
     default:
       return []
   }
@@ -85,11 +82,6 @@ const Form = ({ variant, handleClose }) => {
 
     const city = cities.find((city) => city.id === updatedData.city)
     if (city) updatedData.city = city.name
-
-    const office = offices.find(
-      (office) => office.officeId === updatedData.office
-    )
-    if (office) updatedData.office = office.officeName
 
     const service = officeServices.find(
       (service) => service.serviceId === updatedData.service
@@ -127,17 +119,9 @@ const Form = ({ variant, handleClose }) => {
   const isPopup = variant === 'popup'
 
   const selectedCity = watch('city')
-  const selectedOffice = watch('office')
 
-  const officeOptions = selectedCity
-    ? getDependentOptions('offices', selectedCity).map((office) => ({
-        value: office.officeId,
-        label: office.officeName,
-      }))
-    : []
-
-  const serviceOptions = selectedOffice
-    ? getDependentOptions('services', selectedOffice).map((service) => ({
+  const serviceOptions = selectedCity
+    ? getDependentOptions('services', selectedCity).map((service) => ({
         value: service.serviceId,
         label: service.serviceName,
       }))
@@ -176,15 +160,6 @@ const Form = ({ variant, handleClose }) => {
       name: 'city',
       placeholder: t('region'),
       list: cities.map((city) => ({ value: city.id, label: city.name })),
-      onChange: () => {
-        handleResetField('office')
-        handleResetField('service')
-      },
-    },
-    {
-      name: 'office',
-      placeholder: t('office'),
-      list: officeOptions,
       onChange: () => handleResetField('service'),
     },
     {
